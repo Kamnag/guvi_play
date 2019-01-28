@@ -26,7 +26,6 @@ def printMaxSubSquare(M):
                 max_i = i
                 max_j = j
 
-    print("Maximum size sub-matrix is: ")
     for i in range(max_i, max_i - max_of_s, -1):
         for j in range(max_j, max_j - max_of_s, -1):
             print (M[i][j], end = " ")
